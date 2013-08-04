@@ -40,7 +40,7 @@
 %   500 words, and the Hebrew abstract contain between 1,000 and 2,000
 %   words (making it something between an abstract and an introduction
 %   with an overview of results).
-% - Be careful with links in Hebrew text (wrap them in \L{}).
+% - Be careful with links in Hebrew text (wrap them in \textenglish{}).
 \include{front/abstract}
 \include{front/abbrevs}
 
@@ -70,6 +70,10 @@
 \newcites{pubinfo}{Acknowledgement page references}
 \def\iitthesisextramultibibdefs{}
 
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text]{David CLM}
+\setsansfont[Mapping=tex-text]{David CLM}
+\setmonofont{David CLM}
 \begin{document}
 
 % Front Matter

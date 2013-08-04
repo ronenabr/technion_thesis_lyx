@@ -72,7 +72,7 @@
 % which works for whether you have Hebrew or not,
 % or the original version plus a line of code which assumes you're
 % using Hebrew
-%\RequirePackage{algorithmic}
+% \RequirePackage{algorithmic}
 
 % Not too surprisingly, algorithmicx also does not like babel and Hebrew
 % too much, so you also need a similar workaround. Unfortunately, there
@@ -117,8 +117,9 @@
 % however, uses to wrap Left-to-Right text within a Right-to-Left region;
 % this is a bad choice by babel, but let's support babel over hyperref since
 % we're more interested in Hebrew than in Polish or Ukranian...
-\let\suppressedL\L
-\def\L{\protect\pL}
+%\let\suppressedL\L
+%\def\L{\protect\pL} 
+%commented out. Dose not needed for bidi-tex
 
 \RequirePackage[hyperref,thmmarks]{ntheorem}
 \RequirePackage{aliascnt}
@@ -154,7 +155,12 @@
 % This will allow pdflatex to slightly alter the font size for more
 % flexibility in filling hboxes; see:
 % http://ctan.org/tex-archive/macros/latex/contrib/microtype/microtype.pdf
-\usepackage[babel,activate=true]{microtype}
+% \usepackage[babel,activate=true]{microtype}
+
+%\usepackage{fontspec}
+%\setmainfont[Mapping=tex-text]{David CLM}
+%\setsansfont[Mapping=tex-text]{David CLM}
+%\setmonofont{David CLM}
 
 % This allows us to set the maximum depth of sectioning which appears in
 % the table of contents
@@ -711,6 +717,18 @@
 \showboxbreadth=50
 
 % -----------------------------------------------------------------
+
+
+
+
+\RequirePackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguage{hebrew}
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text]{David CLM}
+\setsansfont[Mapping=tex-text]{David CLM}
+\setmonofont{David CLM}
+
 
 \endinput
 %%
