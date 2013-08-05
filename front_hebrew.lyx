@@ -6,7 +6,7 @@
 \use_default_options false
 \master thesis_head.lyx
 \maintain_unincluded_children false
-\language english
+\language hebrew
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -62,20 +62,14 @@
 \begin_body
 
 \begin_layout supervisionHebrew
-
-\lang hebrew
 שם המנחה
 \end_layout
 
 \begin_layout JewishDateHebrew
-
-\lang hebrew
 תאריך עברי בעברית
 \end_layout
 
 \begin_layout GregorianDateHebrew
-
-\lang hebrew
 ינואר
 \family roman
 \series medium
@@ -105,20 +99,14 @@
 \end_layout
 
 \begin_layout supervisionHebrew
-
-\lang hebrew
 המחקר בוצע בהנחייתו של פרופסור אישחשוב עצמוני, בפקולטה למדעי המחשב
 \end_layout
 
 \begin_layout authorHebrew
-
-\lang hebrew
 מישהו 
 \end_layout
 
 \begin_layout publicationInfoHebrew
-
-\lang hebrew
 )התייחסות לפרסומים, שמופיעה להלן, הינה הכרחית לפי תקנות ביה"ס ללימודי מוסמכים;
  כמובן שיש למחוק את ההערה הזו שבסוגריים...
  תוכן זה נמצאה בקובץ 
@@ -135,7 +123,6 @@ texttt{thesis-fields.tex}}.
 \begin_layout abstractHebrew
 
 \size normal
-\lang hebrew
 כאן יבוא תקציר מורחב בעברית )כאשר שפת החיבור העיקרית היא אנגלית( היקף התקציר
  יהיה
 \family roman
@@ -197,42 +184,31 @@ texttt{thesis-fields.tex}}.
 
 \begin_deeper
 \begin_layout Standard
-
-\lang hebrew
 וכאן אפשר לשים כאן עוד דברים
 \end_layout
 
 \begin_layout Subsubsection
-
-\lang hebrew
 ועוד דברים
 \end_layout
 
 \end_deeper
 \begin_layout abstractHebrew
-
-\lang hebrew
 ועוד דברים ועוד 
 \end_layout
 
 \begin_deeper
 \begin_layout Section
-
-\lang hebrew
 ועוד דברים
 \end_layout
 
 \end_deeper
 \begin_layout abstractHebrew
-
-\lang hebrew
 בלה בלה בלה 
 \end_layout
 
 \begin_layout personalAcknowledgementHebrew
 
 \size normal
-\lang hebrew
 שימו לב: תודות אלו מופיעות רק אחרי ההדפסה וכו' 
 \end_layout
 

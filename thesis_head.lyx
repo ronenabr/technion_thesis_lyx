@@ -75,10 +75,53 @@
 status open
 
 \begin_layout Plain Layout
+Edit the Class arguments in order to set your degree-type:
+\end_layout
+
+\begin_layout Plain Layout
+PhD
+\end_layout
+
+\begin_layout Plain Layout
+MSc 
+\end_layout
+
+\begin_layout Plain Layout
+MArch
+\end_layout
+
+\begin_layout Plain Layout
+MEcon
+\end_layout
+
+\begin_layout Plain Layout
+ME
+\end_layout
+
+\begin_layout Standard
+Documents->Settings, In the document class part, Edit the Costume class
+ options to be one of the above.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Thesis-wide macros file.
  Keep the macros.lyx file open in your LyX when editing, so LyX will be able
  to recognize the macros.
  
+\end_layout
+
+\begin_layout Plain Layout
+Please edit this file (right click->Edit included file)
 \end_layout
 
 \end_inset
@@ -103,6 +146,10 @@ status open
 \begin_layout Plain Layout
 The following file contains Front cover info in English: Title, author,
  supervisor, abstract, etc.
+\end_layout
+
+\begin_layout Plain Layout
+Please edit this file (right click->Edit included file)
 \end_layout
 
 \end_inset
@@ -130,6 +177,10 @@ The following file contains Front cover info in Hebrew: Title, author, superviso
 r, abstract, etc.
 \end_layout
 
+\begin_layout Plain Layout
+Please edit this file (right click->Edit included file)
+\end_layout
+
 \end_inset
 
 
@@ -139,6 +190,21 @@ r, abstract, etc.
 \begin_inset CommandInset include
 LatexCommand include
 filename "front_hebrew.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The following line just put all the English front matter in place.
+ Do not remove.
+ 
+\end_layout
 
 \end_inset
 
@@ -166,6 +232,11 @@ content
  It is recommended to copy this content file, as it contains some nontrivial
  definitions.
  
+\end_layout
+
+\begin_layout Plain Layout
+Ideally, The only thing you should edit in this document is including new
+ content parts (Insert->File->Child document)
 \end_layout
 
 \end_inset
@@ -231,6 +302,19 @@ The bibliography file
 LatexCommand bibtex
 bibfiles "back/general"
 options "alpha"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The following line just put all the back matter + Hebrew stuff in place
+\end_layout
 
 \end_inset
 
