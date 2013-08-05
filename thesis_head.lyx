@@ -257,10 +257,40 @@ So this should contain be a few more paragraphs...
  וציטוטים.
  אין להתייחס למספר של פרק, סעיף, נוסחה, ציור או טבלה שבגוף החיבור, ואין
  להשתמש בקיצורים, סמלים ומונחים לא מקובלים, אלא אם יש בתקציר די מקום לזיהויים.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_deeper
+\begin_layout Standard
 
+\lang hebrew
+וכאן אפשר לשים כאן עוד דברים
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang hebrew
+ועוד דברים
+\end_layout
+
+\end_deeper
+\begin_layout abstractHebrew
+
+\lang hebrew
+ועוד דברים ועוד 
+\end_layout
+
+\begin_deeper
+\begin_layout Section
+
+\lang hebrew
+ועוד דברים
+\end_layout
+
+\end_deeper
+\begin_layout abstractHebrew
+
+\lang hebrew
+בלה בלה בלה 
 \end_layout
 
 \begin_layout personalAcknowledgementEnglish
@@ -275,13 +305,6 @@ So this should contain be a few more paragraphs...
 \lang hebrew
 )שים/י לב: תודות אלו מופיעות רק בעותק להדפסה לאחר הבחינה, ולא לפניה.( אני
  רוצה להודות למנחה שלי, להוריי, לחבריי, וכו' וכו'.
-\end_layout
-
-\begin_layout Standard
-
-\size normal
-\lang hebrew
-אפשר להוסיף עוד תודות והערות אישיות כאן.
 \end_layout
 
 \begin_layout Standard

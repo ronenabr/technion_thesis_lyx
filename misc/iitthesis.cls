@@ -93,7 +93,7 @@
 %%
 
 \def\filename{iitthesis}
-\def\fileversion{v0.6}
+\def\fileversion{v0.7}
 \def\filedate{2012/03/10}
 \NeedsTeXFormat{LaTeX2e}
 \edef\iitthesis@TechnionIITThesis{%
@@ -289,10 +289,14 @@
 %
 \newcommand{\iitthesis@thesisdatafield}[2]{%
   % this defines the internal command which stores the field value
-  \@namedef{iitthesis@#1}{#2}
+  \global\@namedef{iitthesis@#1}{#2}
   % this defines the command with which the class user will set the value
-  \long\@namedef{#1}##1{\@namedef{iitthesis@#1}{##1}}
+  \long\@namedef{#1}##1{\global\@namedef{iitthesis@#1}{##1}}
 }
+
+
+
+
 
 \iitthesis@thesisdatafield{authorEnglish}{Name of Author}
 \iitthesis@thesisdatafield{authorHebrew}{שם המחבר}
@@ -324,7 +328,14 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
 \iitthesis@thesisdatafield{bibliography}{}
 
 
-%--------------------------------
+
+
+
+\long\def\redefineCommand#1\end{\global\@namedef{iitthesis@abstractHebrew}{#1}\end}
+\newenvironment{abstractHebrewE}{\redefineCommand{abstractHebrew}}{}
+\newenvironment{abstractEnglishE}{\redefineCommand{abstractEnglish}}{}
+\newenvironment{publicationInfoHebrewE}{\redefineCommand{publicationInfoHebrew}}{}
+\newenvironment{publicationInfoEnglishE}{\redefineCommand{publicationInfoEnglish}}{}
 
 % These next two commands are for the class user to invoke:
 

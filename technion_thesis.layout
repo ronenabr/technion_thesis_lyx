@@ -381,10 +381,10 @@ End
 
 Style publicationInfoEnglish
 	Margin                Static
-	LatexType             Command
+	LatexType             Environment
 	Category              FrontMatter
 	InTitle               1
-	LatexName             publicationInfoEnglish
+	LatexName             publicationInfoEnglishE
 	NextNoIndent          1
 	LeftMargin            MMM
 	RightMargin           MMM
@@ -422,10 +422,10 @@ End
 
 Style abstractEnglish
 	Margin                Static
-	LatexType             Command
+	LatexType             Environment
 	Category              FrontMatter
 	InTitle               1
-	LatexName             abstractEnglish
+	LatexName             abstractEnglishE
 	NextNoIndent          1
 	LeftMargin            MMM
 	RightMargin           MMM
@@ -504,10 +504,10 @@ End
 
 Style publicationInfoHebrew
 	Margin                Static
-	LatexType             Command
+	LatexType             Environment
 	Category              FrontMatterHebrew
 	InTitle               1
-	LatexName             publicationInfoHebrew
+	LatexName             publicationInfoHebrewE
 	NextNoIndent          1
 	LeftMargin            MMM
 	RightMargin           MMM
@@ -546,10 +546,11 @@ End
 
 Style abstractHebrew
 	Margin                Static
-	LatexType             Command
+	LatexType             Environment
 	Category              FrontMatterHebrew
 	InTitle               1
-	LatexName             abstractHebrew
+	LatexName             abstractHebrewE
+	InPreamble            1
 	NextNoIndent          1
 	LeftMargin            MMM
 	RightMargin           MMM
