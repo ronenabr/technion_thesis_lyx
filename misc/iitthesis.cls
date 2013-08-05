@@ -320,7 +320,9 @@
 notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
 % the following should be a comma-separate list of relative filenames,
 % e.g. {backmatter/compsci.bib,backmatter/math.bib,specific.bib}
-\iitthesis@thesisdatafield{thesisbibfiles}{}
+%\iitthesis@thesisdatafield{thesisbibfiles}{}
+\iitthesis@thesisdatafield{bibliography}{}
+
 
 %--------------------------------
 
@@ -328,7 +330,7 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
 
 
 \newcommand{\makefrontmatter}{%
-
+ \selectlanguage{english}%
  \pagestyle{empty}
 
  \makecoverEnglish
@@ -377,7 +379,7 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
 }
 
 \newcommand{\makebackmatter}{%
-
+\selectlanguage{english}%
  % This _should_ be done AtEndDocument, but that fails for some reason
  \ifdefined\iitthesis@havefigures
   \label{iitthesis:had-figures}
