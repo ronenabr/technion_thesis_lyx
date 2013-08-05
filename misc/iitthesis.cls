@@ -16,6 +16,9 @@
 %% Eyal Rozenberg       <eyalroz@technion.ac.il>
 %%                      <eyalroz@riseup.net>
 %%       Contributor
+%% Ronen Abravanel
+%%                      <ronen@tx.technion.ac.il>
+%%       LyX support changes
 %%
 %% Notes:
 %% - This class has a hard-coded default of using A4 paper,11pt-size font
@@ -325,17 +328,26 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
 % the following should be a comma-separate list of relative filenames,
 % e.g. {backmatter/compsci.bib,backmatter/math.bib,specific.bib}
 %\iitthesis@thesisdatafield{thesisbibfiles}{}
+
+\let\Realbibliography\bibliography
+
 \iitthesis@thesisdatafield{bibliography}{}
 
+%\long\def\bibliography#1\end{\thesisbibfiles{#1}\end}
 
 
 
-
-\long\def\redefineCommand#1\end{\global\@namedef{iitthesis@abstractHebrew}{#1}\end}
+% \R just do nothing to fix a LyX 2.6 bug. 
+\long\def\R#1\end{#1\end}
+\long\def\redefineCommand#1#2\end{\global\@namedef{iitthesis@#1}{#2}\end}
 \newenvironment{abstractHebrewE}{\redefineCommand{abstractHebrew}}{}
 \newenvironment{abstractEnglishE}{\redefineCommand{abstractEnglish}}{}
+
 \newenvironment{publicationInfoHebrewE}{\redefineCommand{publicationInfoHebrew}}{}
 \newenvironment{publicationInfoEnglishE}{\redefineCommand{publicationInfoEnglish}}{}
+
+\newenvironment{personalAcknowledgementEnglishE}{\redefineCommand{personalAcknowledgementEnglish}}{}
+\newenvironment{personalAcknowledgementHebrewE}{\redefineCommand{personalAcknowledgementHebrew}}{}
 
 % These next two commands are for the class user to invoke:
 
@@ -375,7 +387,7 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
 }
 
 \newcommand{\makebibliography}{%
-  \ifx\iitthesis@thesisbibfiles\@empty
+  \ifx\iitthesis@bibliography\@empty
     \PackageError{iitthesis}{%
       No bibliography files specified; a thesis must contain a bibliography.}
   \else
@@ -385,7 +397,7 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
       \pdfbookmark[0]{Bibliography}{bib}%
     \fi
     \bibliographystyle{\iitthesis@thesisbibstyle}%
-    \bibliography{\iitthesis@thesisbibfiles}%
+    \Realbibliography{\iitthesis@bibliography}%
   \fi%
 }
 
@@ -773,7 +785,9 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
   \begin{otherlanguage}{hebrew}
   \chapter*{תקציר}
   \addcontentsline{cot}{chapter}{תקציר עברי}
+  \selectlanguage{english}
   \addcontentsline{toc}{chapter}{\textenglish{Hebrew Abstract}}
+  \selectlanguage{hebrew}
   \setlength{\parindent}{0pt}
   \setlength{\parskip}{10pt}
 

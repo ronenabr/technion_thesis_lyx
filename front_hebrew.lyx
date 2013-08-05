@@ -1,0 +1,240 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass technion_thesis
+\use_default_options false
+\master thesis_head.lyx
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 2
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index אינדקס
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout supervisionHebrew
+
+\lang hebrew
+שם המנחה
+\end_layout
+
+\begin_layout JewishDateHebrew
+
+\lang hebrew
+תאריך עברי בעברית
+\end_layout
+
+\begin_layout GregorianDateHebrew
+
+\lang hebrew
+ינואר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2013
+\end_layout
+
+\begin_layout supervisionHebrew
+
+\lang hebrew
+המחקר בוצע בהנחייתו של פרופסור אישחשוב עצמוני, בפקולטה למדעי המחשב
+\end_layout
+
+\begin_layout authorHebrew
+
+\lang hebrew
+מישהו 
+\end_layout
+
+\begin_layout publicationInfoHebrew
+
+\lang hebrew
+)התייחסות לפרסומים, שמופיעה להלן, הינה הכרחית לפי תקנות ביה"ס ללימודי מוסמכים;
+ כמובן שיש למחוק את ההערה הזו שבסוגריים...
+ תוכן זה נמצאה בקובץ 
+\backslash
+textenglish{
+\backslash
+texttt{thesis-fields.tex}}.
+ כן ייתכן שיהיה צורך להדר את המסמך פעם או פעמיים נוספות עד שהרשימה אכן תופיע
+ כראוי.( חלק מן התוצאות בחיבור זה פורסמו כמאמרים מאת המחבר ושותפיו למחקר
+ בכנסים ובכתבי-עת במהלך תקופת מחקר הדוקטורט של המחבר, אשר גרסאותיהם העדכניות
+ ביותר הינן:
+\end_layout
+
+\begin_layout abstractHebrew
+
+\size normal
+\lang hebrew
+כאן יבוא תקציר מורחב בעברית )כאשר שפת החיבור העיקרית היא אנגלית( היקף התקציר
+ יהיה
+\family roman
+\series medium
+\shape up
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1000-2000
+\family roman
+\series medium
+\shape up
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מילים.
+ התקציר יהיה שלם בפני עצמו ויהיה מובן לקורא בעל ידיעות כלליות בנושא.
+ 
+\begin_inset Newline newline
+\end_inset
+
+התקציר ייכתב במשפטים מקושרים שלמים, בדרך-כלל אין לציין בו מקורות ספרותיים
+ וציטוטים.
+ אין להתייחס למספר של פרק, סעיף, נוסחה, ציור או טבלה שבגוף החיבור, ואין
+ להשתמש בקיצורים, סמלים ומונחים לא מקובלים, אלא אם יש בתקציר די מקום לזיהויים.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang hebrew
+וכאן אפשר לשים כאן עוד דברים
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang hebrew
+ועוד דברים
+\end_layout
+
+\end_deeper
+\begin_layout abstractHebrew
+
+\lang hebrew
+ועוד דברים ועוד 
+\end_layout
+
+\begin_deeper
+\begin_layout Section
+
+\lang hebrew
+ועוד דברים
+\end_layout
+
+\end_deeper
+\begin_layout abstractHebrew
+
+\lang hebrew
+בלה בלה בלה 
+\end_layout
+
+\begin_layout personalAcknowledgementHebrew
+
+\size normal
+\lang hebrew
+שימו לב: תודות אלו מופיעות רק אחרי ההדפסה וכו' 
+\end_layout
+
+\end_body
+\end_document

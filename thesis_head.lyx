@@ -23,7 +23,7 @@
 \font_sans default
 \font_typewriter default
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100
@@ -70,249 +70,127 @@
 
 \begin_body
 
-\begin_layout TitleEnglish
-TitleEnglish
-\end_layout
-
-\begin_layout TitleHebrew
-
-\lang hebrew
-כותרת
-\end_layout
-
-\begin_layout supervisionEnglish
-This research was carried out under the supervision of Prof.~Big Shot, in
- the Faculty of Computer Science.
-\end_layout
-
-\begin_layout supervisionHebrew
-
-\lang hebrew
-שם המנחה
-\end_layout
-
-\begin_layout GregorianDateEnglish
-January 2012
-\end_layout
-
-\begin_layout JewishDateEnglish
-Tevet 5120
-\end_layout
-
-\begin_layout JewishDateHebrew
-
-\lang hebrew
-תאריך עברי בעברית
-\end_layout
-
-\begin_layout GregorianDateHebrew
-
-\lang hebrew
-ינואר
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2013
-\end_layout
-
-\begin_layout supervisionHebrew
-
-\lang hebrew
-המחקר בוצע בהנחייתו של פרופסור אישחשוב עצמוני, בפקולטה למדעי המחשב
-\end_layout
-
-\begin_layout authorEnglish
-Someone
-\end_layout
-
-\begin_layout authorHebrew
-
-\lang hebrew
-מישהו 
-\end_layout
-
-\begin_layout publicationInfoEnglish
-(The grad school guidelines now require that you mention the following regarding
- publications of your thesis work; but of course, remove this parenthesized
- note...; this is to be found in the 
-\backslash
-texttt{thesis-fields.tex} file.
- Note also that the document may need to be processed several times before
- the list of publications actually appears) Some results in this thesis
- have been published as articles by the author and research collaborators
- in conferences and journals during the course of the author's doctoral
- research period, the most up-to-date versions of which being:
-\end_layout
-
-\begin_layout publicationInfoHebrew
-
-\lang hebrew
-)התייחסות לפרסומים, שמופיעה להלן, הינה הכרחית לפי תקנות ביה"ס ללימודי מוסמכים;
- כמובן שיש למחוק את ההערה הזו שבסוגריים...
- תוכן זה נמצאה בקובץ 
-\backslash
-textenglish{
-\backslash
-texttt{thesis-fields.tex}}.
- כן ייתכן שיהיה צורך להדר את המסמך פעם או פעמיים נוספות עד שהרשימה אכן תופיע
- כראוי.( חלק מן התוצאות בחיבור זה פורסמו כמאמרים מאת המחבר ושותפיו למחקר
- בכנסים ובכתבי-עת במהלך תקופת מחקר הדוקטורט של המחבר, אשר גרסאותיהם העדכניות
- ביותר הינן:
-\end_layout
-
-\begin_layout abstractEnglish
-At this point you write the abstract of your work, in the main language
- in which it is written (in this template - English).
- Graduate school regulations require the abstract to constitute an independent
- whole and be understood to a reader with general knowledge of the field.
- Use complete sentences and make few or no citations.
- Do not refer to the main body of the work and do not use uncommon shorthand,
- symbols and terms unless you have room for explaining them.
- The English abstract should be between 200 and 500 words long.
-\begin_inset Newline newline
-\end_inset
-
-So this should contain be a few more paragraphs...
-\end_layout
-
-\begin_layout abstractHebrew
-
-\size normal
-\lang hebrew
-כאן יבוא תקציר מורחב בעברית )כאשר שפת החיבור העיקרית היא אנגלית( היקף התקציר
- יהיה
-\family roman
-\series medium
-\shape up
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1000-2000
-\family roman
-\series medium
-\shape up
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-מילים.
- התקציר יהיה שלם בפני עצמו ויהיה מובן לקורא בעל ידיעות כלליות בנושא.
- 
-\begin_inset Newline newline
-\end_inset
-
-התקציר ייכתב במשפטים מקושרים שלמים, בדרך-כלל אין לציין בו מקורות ספרותיים
- וציטוטים.
- אין להתייחס למספר של פרק, סעיף, נוסחה, ציור או טבלה שבגוף החיבור, ואין
- להשתמש בקיצורים, סמלים ומונחים לא מקובלים, אלא אם יש בתקציר די מקום לזיהויים.
-\end_layout
-
-\begin_deeper
 \begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+preview true
+filename "front_english.lyx"
 
-\lang hebrew
-וכאן אפשר לשים כאן עוד דברים
-\end_layout
+\end_inset
 
-\begin_layout Subsubsection
 
-\lang hebrew
-ועוד דברים
-\end_layout
-
-\end_deeper
-\begin_layout abstractHebrew
-
-\lang hebrew
-ועוד דברים ועוד 
-\end_layout
-
-\begin_deeper
-\begin_layout Section
-
-\lang hebrew
-ועוד דברים
-\end_layout
-
-\end_deeper
-\begin_layout abstractHebrew
-
-\lang hebrew
-בלה בלה בלה 
-\end_layout
-
-\begin_layout personalAcknowledgementEnglish
-(Note that these acknowledgement only appear in the copy printed after the
- exam:) I would like to thank my advisor, my parents, my friends, etc.
- etc.
-\end_layout
-
-\begin_layout personalAcknowledgementHebrew
-
-\size normal
-\lang hebrew
-)שים/י לב: תודות אלו מופיעות רק בעותק להדפסה לאחר הבחינה, ולא לפניה.( אני
- רוצה להודות למנחה שלי, להוריי, לחבריי, וכו' וכו'.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
+\begin_inset CommandInset include
+LatexCommand include
+filename "front_hebrew.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout MakeFrontMatter
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
+Thesis-wide macros file.
+ Keep the macros.lyx file open in your LyX when editing, so LyX will be able
+ to recognize the macros.
+ 
+\end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "macros.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Add many 
+\begin_inset Quotes eld
+\end_inset
+
+content
+\begin_inset Quotes erd
+\end_inset
+
+ files.
+ It is recommended to copy this content file, as it contains some nontrivial
+ definitions.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "content.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "content.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "content.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "content.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The bibliography file
 \end_layout
 
 \end_inset
@@ -331,19 +209,7 @@ options "alpha"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-makebackmatter
-\end_layout
-
-\end_inset
-
+\begin_layout MakeBackMatter
 
 \end_layout
 

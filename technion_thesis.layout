@@ -6,7 +6,51 @@
 # Heavily modifed and enhanced by serveral developers.
 
 Format 35
-Input stdclass.inc
+Columns                 1
+Sides                   1
+SecNumDepth             2
+TocDepth                2
+DefaultStyle            Standard
+
+# This is just to show how to declare the default font.
+# The defaults are exactly those shown here.
+DefaultFont
+	Family                Roman
+	Series                Medium
+	Shape                 Up
+	Size                  Normal
+	Color                 None
+EndFont
+
+
+Style Standard
+	Category              MainText
+	Margin                Static
+	LatexType             Paragraph
+	LatexName             dummy
+	ParIndent             MM
+	ParSkip               0.4
+	Align                 Block
+	AlignPossible         Block, Left, Right, Center
+	LabelType             No_Label
+	# FIXME This ought to be set dynamically.
+	HTMLStyle
+		div.standard {
+			margin-bottom: 2ex;
+		}
+	EndHTMLStyle
+End
+
+#Input stdcharstyles.inc
+#Input stdcustom.inc
+Input stdfloats.inc
+Input stdcounters.inc
+Input stdinsets.inc
+Input stdlists.inc
+Input stdsections.inc
+Input stdstarsections.inc
+Input stdlayouts.inc
+Input stdciteformats.inc
 
 SecNumDepth             3
 TocDepth                3
@@ -42,11 +86,11 @@ NoStyle Title
 TitleLatexName makefrontmatter
 
 
-Style TitleEnglish
+Style Title
 	Margin                Static
 	LatexType             Command
 	Category              FrontMatter
-	InTitle               1
+	InTitle               0
 	LatexName             titleEnglish
 	ParSkip               0.4
 	ItemSep               0
@@ -69,7 +113,7 @@ Style TitleHebrew
 	LatexType             Command
 	LatexName             titleHebrew
 	Category              FrontMatterHebrew
-	InTitle               1
+	InTitle               0
 	NextNoIndent          1
 	LabelSep              xx
 	ParIndent             MMM
@@ -99,7 +143,7 @@ Style JewishDateHebrew
 	LatexType             Command
 	LatexName             JewishDateHebrew
 	Category              FrontMatterHebrew
-	InTitle               1
+	InTitle               0
 	NextNoIndent          1
 	LabelSep              xx
 	ParIndent             MMM
@@ -128,7 +172,7 @@ Style disciplineHebrew
 	LatexType             Command
 	LatexName             disciplineHebrew
 	Category              FrontMatterHebrew
-	InTitle               1
+	InTitle               0
 	NextNoIndent          1
 	LabelSep              xx
 	ParIndent             MMM
@@ -157,7 +201,7 @@ Style authorHebrew
 	LatexType             Command
 	LatexName             authorHebrew
 	Category              FrontMatterHebrew
-	InTitle               1
+	InTitle               0
 	NextNoIndent          1
 	LabelSep              xx
 	ParIndent             MMM
@@ -185,7 +229,7 @@ Style GregorianDateHebrew
 	LatexType             Command
 	LatexName             GregorianDateHebrew
 	Category              FrontMatterHebrew
-	InTitle               1
+	InTitle               0
 	NextNoIndent          1
 	LabelSep              xx
 	ParIndent             MMM
@@ -213,7 +257,7 @@ Style supervisionHebrew
 	LatexType             Command
 	LatexName             supervisionHebrew
 	Category              FrontMatterHebrew
-	InTitle               1
+	InTitle               0
 	NextNoIndent          1
 	LabelSep              xx
 	ParIndent             MMM
@@ -242,7 +286,7 @@ Style supervisionEnglish
 	Margin                Static
 	LatexType             Command
 	Category              FrontMatter
-	InTitle               1
+	InTitle               0
 	LatexName             supervisionEnglish
 	ParSkip               0.4
 	ItemSep               0
@@ -270,7 +314,7 @@ Style GregorianDateEnglish
 	Margin                Static
 	LatexType             Command
 	Category              FrontMatter
-	InTitle               1
+	InTitle               0
 	LatexName             GregorianDateEnglish
 	ParSkip               0.4
 	ItemSep               0
@@ -298,7 +342,7 @@ Style JewishDateEnglish
 	Margin                Static
 	LatexType             Command
 	Category              FrontMatter
-	InTitle               1
+	InTitle               0
 	LatexName             JewishDateEnglish
 	ParSkip               0.4
 	ItemSep               0
@@ -326,7 +370,7 @@ Style disciplineEnglish
 	Margin                Static
 	LatexType             Command
 	Category              FrontMatter
-	InTitle               1
+	InTitle               0
 	LatexName             disciplineEnglish
 	ParSkip               0.4
 	ItemSep               0
@@ -351,11 +395,11 @@ Style disciplineEnglish
 End
 
 
-Style authorEnglish
+Style Author
 	Margin                Static
 	LatexType             Command
 	Category              FrontMatter
-	InTitle               1
+	InTitle               0
 	LatexName             authorEnglish
 	ParSkip               0.4
 	ItemSep               0
@@ -383,7 +427,7 @@ Style publicationInfoEnglish
 	Margin                Static
 	LatexType             Environment
 	Category              FrontMatter
-	InTitle               1
+	InTitle               0
 	LatexName             publicationInfoEnglishE
 	NextNoIndent          1
 	LeftMargin            MMM
@@ -420,11 +464,11 @@ Style publicationInfoEnglish
 	EndHTMLStyle
 End
 
-Style abstractEnglish
+Style Abstract
 	Margin                Static
 	LatexType             Environment
 	Category              FrontMatter
-	InTitle               1
+	InTitle               0
 	LatexName             abstractEnglishE
 	NextNoIndent          1
 	LeftMargin            MMM
@@ -463,10 +507,10 @@ End
 
 Style personalAcknowledgementEnglish
 	Margin                Static
-	LatexType             Command
+	LatexType             Environment
 	Category              FrontMatter
-	InTitle               1
-	LatexName             personalAcknowledgementEnglish
+	InTitle               0
+	LatexName             personalAcknowledgementEnglishE
 	NextNoIndent          1
 	LeftMargin            MMM
 	RightMargin           MMM
@@ -506,7 +550,7 @@ Style publicationInfoHebrew
 	Margin                Static
 	LatexType             Environment
 	Category              FrontMatterHebrew
-	InTitle               1
+	InTitle               0
 	LatexName             publicationInfoHebrewE
 	NextNoIndent          1
 	LeftMargin            MMM
@@ -548,7 +592,7 @@ Style abstractHebrew
 	Margin                Static
 	LatexType             Environment
 	Category              FrontMatterHebrew
-	InTitle               1
+	InTitle               0
 	LatexName             abstractHebrewE
 	InPreamble            1
 	NextNoIndent          1
@@ -589,10 +633,10 @@ End
 
 Style personalAcknowledgementHebrew
 	Margin                Static
-	LatexType             Command
+	LatexType             Environment
 	Category              FrontMatterHebrew
-	InTitle               1
-	LatexName             personalAcknowledgementHebrew
+	InTitle               0
+	LatexName             personalAcknowledgementHebrewE
 	NextNoIndent          1
 	LeftMargin            MMM
 	RightMargin           MMM
@@ -627,5 +671,50 @@ Style personalAcknowledgementHebrew
 		}
 	EndHTMLStyle
 End
+
+
+
+
+
+Style MakeFrontMatter
+	Category              DocumentParts
+	KeepEmpty             1
+	Margin                Dynamic
+	LatexType             Command
+	LatexName             makefrontmatter
+	ParIndent             MM
+	Align                 Block
+	LabelType             Static
+	LabelString           "--- Front Matter Starts Here ---"
+	LabelFont
+	  Family              Roman
+	  Series              Medium
+	  Size                Normal
+	  Color               Blue
+	EndFont
+	HTMLLabel             NONE
+End
+
+Style MakeBackMatter
+	Category              DocumentParts
+	KeepEmpty             1
+	Margin                Dynamic
+	LatexType             Command
+	LatexName             makebackmatter
+	ParIndent             MM
+	Align                 Block
+	LabelType             Static
+	LabelString           "--- Back Matter Starts Here ---"
+	LabelFont
+	  Family              Roman
+	  Series              Medium
+	  Size                Normal
+	  Color               Blue
+	EndFont
+	HTMLLabel             NONE
+End
+
+
+
 
 
