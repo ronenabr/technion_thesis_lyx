@@ -71,31 +71,6 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-preview true
-filename "front_english.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "front_hebrew.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout MakeFrontMatter
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -118,6 +93,59 @@ filename "macros.lyx"
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The following file contains Front cover info in English: Title, author,
+ supervisor, abstract, etc.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+preview true
+filename "front_english.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The following file contains Front cover info in Hebrew: Title, author, superviso
+r, abstract, etc.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "front_hebrew.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout MakeFrontMatter
 
 \end_layout
 
