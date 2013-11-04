@@ -80,8 +80,6 @@
 status open
 
 \begin_layout Plain Layout
-
-\series bold
 Edit the Class arguments in order to set your degree-type:
 \end_layout
 
@@ -121,8 +119,6 @@ Documents->Settings, In the document class part, Edit the Costume class
 status open
 
 \begin_layout Plain Layout
-
-\series bold
 Fonts:
 \end_layout
 
