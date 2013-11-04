@@ -10,7 +10,7 @@ Requiremtns:
 * Proper Hebrew fonts:
   * For Linux, Use Culmus fonts (not culmus-latex fonts. Just proper culmus) .
   * For Windows, use Ezra-SIL fonts,  http://scripts.sil.org/ezrasil_home .
-
+     If you find other nice hebrew fonts that works on Windows, please report [here](https://github.com/ronenabr/technion_thesis_lyx/issues/1).
 
 If you have problem with using the package, please report on github's issue tracker. 
 
