@@ -777,7 +777,7 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
   }{
     \vspace*{\stretch{1}}
   }
-  \noindent \iitthesis@financialAcknowledgementHebrew
+  \noindent  \texthebrew{\iitthesis@financialAcknowledgementHebrew}
   \end{otherlanguage}
 }
 
