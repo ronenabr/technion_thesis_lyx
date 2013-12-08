@@ -271,9 +271,31 @@ Please edit this file (right click->Edit included file)
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
 filename "front_hebrew.lyx"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
 
 \end_inset
 
@@ -320,38 +342,8 @@ content
 
 \begin_layout Plain Layout
 Ideally, The only thing you should edit in this document is including new
- content parts (Insert->File->Child document)
+ content parts (Insert->File->Child document).
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "content.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "content.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "content.lyx"
 
 \end_inset
 
