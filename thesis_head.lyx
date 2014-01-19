@@ -257,6 +257,33 @@ filename "front_english.lyx"
 status open
 
 \begin_layout Plain Layout
+The following file contain the list of abbreviations and notations.
+\end_layout
+
+\begin_layout Plain Layout
+Please edit this file (right click->Edit included file)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "abbreviations.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 The following file contains Front cover info in Hebrew: Title, author, superviso
 r, abstract, etc.
 \end_layout

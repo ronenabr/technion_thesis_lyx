@@ -218,6 +218,24 @@
   }
 }%
 
+% A mechanism for determining whether the document contained
+% any figures. Using this, we can decide whether or not we need
+% a list of figures
+% see: http://tex.stackexchange.com/q/33193/5640
+%
+
+\AtEndEnvironment{table}{\gdef\iitthesis@havetables{}}
+\newcommand{\conditionallistoftables}{
+ \@ifundefined{r@iitthesis:had-tables}
+ {}
+ {%
+  \listoftables%
+  \addcontentsline{cot}{chapter}{רשימת טבלאות}%
+  \addcontentsline{toc}{chapter}{List of Tables}%
+  }
+}%
+
+
 %--------------------------------
 
 % Commands regarding the typesetting of the Hebrew material
@@ -349,6 +367,9 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
 \newenvironment{personalAcknowledgementEnglishE}{\redefineCommand{personalAcknowledgementEnglish}}{}
 \newenvironment{personalAcknowledgementHebrewE}{\redefineCommand{personalAcknowledgementHebrew}}{}
 
+\newenvironment{abbreviationsAndNotationE}{\redefineCommand{abbreviationsAndNotation}}{}
+
+
 % These next two commands are for the class user to invoke:
 
 
@@ -371,6 +392,9 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
  \cleardoublepage
  \conditionallistoffigures
  \cleardoublepage
+ \conditionallistoftables
+ \cleardoublepage
+
 
  % Regulations require that numbering starts on the first page
  % of the abstract, being page 1
@@ -407,7 +431,9 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
  \ifdefined\iitthesis@havefigures
   \label{iitthesis:had-figures}
  \fi
-
+ \ifdefined\iitthesis@havetables
+  \label{iitthesis:had-tables}
+ \fi
  \clearpage
  \makebibliography
 
