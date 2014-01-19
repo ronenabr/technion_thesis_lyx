@@ -506,46 +506,6 @@ Style Abstract
 End
 
 
-Style Abbreviations-And-Notation
-	Margin                Static
-	LatexType             Environment
-	Category              FrontMatter
-	InTitle               0
-	LatexName             abbreviationsAndNotationE
-	NextNoIndent          1
-	LeftMargin            MMM
-	RightMargin           MMM
-	ParIndent             MM
-	ItemSep               0
-	TopSep                0.7
-	BottomSep             0.7
-	ParSep                0
-	Align                 Block
-	LabelType             Centered_Top_Environment
-	LabelString           "Abbreviations And Notation"
-	LabelBottomSep        0.5
-	Font
-	  Size                Small
-	EndFont
-	LabelFont
-	  Series              Bold
-	  Size                Large
-	EndFont
-	HTMLLabelFirst        1
-	HTMLForceCSS          1
-	HTMLStyle
-		div.abstract {
-			margin: 4ex;
-		}
-		div.abstract_item {
-			font-size: small;
-			padding-top: 1ex;
-		}
-		div.abstract_label {
-			font-weight: bold;
-		}
-	EndHTMLStyle
-End
 
 Style personalAcknowledgementEnglish
 	Margin                Static
