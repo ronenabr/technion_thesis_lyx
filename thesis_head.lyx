@@ -16,6 +16,8 @@
 \setmainfont[Mapping=tex-text]{\hebrewFont}
 \setsansfont[Mapping=tex-text]{\hebrewFont}
 \setmonofont{\hebrewFont}
+\def\maketag@@@#1{\hbox{\m@th\normalfont\LRE{#1}}}
+\def\tagform@#1{\maketag@@@{(\ignorespaces#1\unskip)}}
 \end_preamble
 \options MSc
 \use_default_options false
@@ -45,7 +47,7 @@
 \papersize default
 \use_geometry false
 \use_amsmath 2
-\use_esint 0
+\use_esint 1
 \use_mhchem 1
 \use_mathdots 1
 \cite_engine basic
