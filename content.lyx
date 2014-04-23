@@ -84,14 +84,6 @@ key "Behrend,Gowers2007,AHU1974,ASE"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-\foo
-\]
-
-\end_inset
-
-
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Yao1977"
@@ -155,6 +147,14 @@ List of tables will displayed automatically only if there are figure floats.
 
 
 \end_layout
+
+\end_inset
+
+ A numbered equation: 
+\begin_inset Formula 
+\begin{equation}
+\mathcal{H}=-J_{0}\sum_{\left\langle i,j\right\rangle }\cos\left(\theta_{i}-\theta_{j}\right)
+\end{equation}
 
 \end_inset
 
