@@ -617,6 +617,9 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
   \ifx\iitthesis@publicationInfoEnglish\@empty
   \else
     \medskip
+    \begin{center}
+    \textbf{\Large \textsc{List of Publications}}
+    \end{center}
     \noindent \iitthesis@publicationInfoEnglish
 
   \fi
@@ -786,6 +789,9 @@ notations listing here.} \iitthesis@thesisdatafield{thesisbibstyle}{alpha}
   \ifx\iitthesis@publicationInfoHebrew\@empty
   \else
     \medskip
+    \begin{center}
+    \textbf{\Large \textsc{רשימת פרסומים}}
+    \end{center}
     \noindent \iitthesis@publicationInfoHebrew
 
   \fi
