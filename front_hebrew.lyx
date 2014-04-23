@@ -61,8 +61,24 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\backslash
+selectlanguage{hebrew}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout TitleHebrew
-כותרת בעברית
+כותרת משונה בעברית
 \end_layout
 
 \begin_layout disciplineHebrew
@@ -131,7 +147,14 @@ texttt{thesis-fields.tex}}.
 \begin_layout abstractHebrew
 
 \size normal
-כאן יבוא תקציר מורחב בעברית )כאשר שפת החיבור העיקרית היא אנגלית( היקף התקציר
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ כאן ועוד 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ יבוא תקציר מורחב בעברית )כאשר שפת החיבור העיקרית היא אנגלית( היקף התקציר
  יהיה
 \family roman
 \series medium
@@ -220,7 +243,43 @@ texttt{thesis-fields.tex}}.
 שימו לב: תודות אלו מופיעות רק אחרי ההדפסה וכו' 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+selectlanguage{english}
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
