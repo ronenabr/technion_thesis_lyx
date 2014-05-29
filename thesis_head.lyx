@@ -18,6 +18,9 @@
 \setmonofont{\hebrewFont}
 \def\maketag@@@#1{\hbox{\m@th\normalfont\LRE{#1}}}
 \def\tagform@#1{\maketag@@@{(\ignorespaces#1\unskip)}}
+
+
+\global\long\def\vec#1{\boldsymbol{\mathbf{#1}}}
 \end_preamble
 \options MSc
 \use_default_options false
